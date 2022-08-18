@@ -7,10 +7,18 @@
 Nessa aplicação foi implementada uma lógica na qual ao acessar o programa é pedido ao usuário que digite um número de 1 a 10 e depois outro 
 com o mesmo comando e os múltiplos de 3 e 5 são somados dando em seguida o resultado da soma.
 
+Eu segui as instruções abaixo:
+
+Crie uma aplicação Console que some os números naturais múltiplos de 3 3 5 de uma sequência, seguindo as regras abaixo:
+
+-A aplicação deve solicitar um número ao usuário
+-Em seguida a aplicação irá somar todos os números naturais de 0 até o número informado que sejam múltiplos de 3 ou 5.
+-No final, deverá ser exibida a soma desses números ao usuário. 
+
 
 ## Print do Visual Studio contendo o código da aplicação
 <div align="center">
-<img src="https://user-images.githubusercontent.com/60937513/185451631-36eb64bc-e1e6-445e-aa41-bdd99453a69c.png" width="800" />
+<img src="https://user-images.githubusercontent.com/60937513/185455790-d323a522-d985-47a4-a714-cc391d2090ca.png" width="800" />
 </div>
 
 
