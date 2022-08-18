@@ -4,12 +4,12 @@
 
 
 # Sobre o projeto
-Nessa aplicação foi implementada uma lógica na qual ao acessar o programa é pedido ao usuário que digite um número de 1 a 10 e depois outro 
+Nessa aplicação foi implementada uma lógica na qual ao acessar o programa é pedido ao usuário que digite um número de 1 a 100 e depois outro 
 com o mesmo comando e os múltiplos de 3 e 5 são somados dando em seguida o resultado da soma.
 
-Eu segui as instruções abaixo:
+Segui as instruções abaixo:
 
-Crie uma aplicação Console que some os números naturais múltiplos de 3 3 5 de uma sequência, seguindo as regras abaixo:
+Crie uma aplicação Console que some os números naturais múltiplos de 3 e 5 de uma sequência, seguindo as regras abaixo:
 
 -A aplicação deve solicitar um número ao usuário
 -Em seguida a aplicação irá somar todos os números naturais de 0 até o número informado que sejam múltiplos de 3 ou 5.
