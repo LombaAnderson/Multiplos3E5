@@ -14,6 +14,8 @@ Segui as instruções abaixo:
 -A aplicação deve solicitar um número ao usuário.
 -Em seguida a aplicação irá somar todos os números naturais de 0 até o número informado que sejam múltiplos de 3 ou 5.
  No final, deverá ser exibida a soma desses números ao usuário."
+ 
+ ( Obs: a aplicação é capaz de imprimir os múltiplos de 3 e 5 dentro de um determinado limite, porém ainda é preciso ajustar a soma pedida nas instruções acima )
 
 
 ## Print do Visual Studio contendo o código da aplicação
