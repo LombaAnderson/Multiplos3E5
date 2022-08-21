@@ -1,44 +1,47 @@
 ﻿
 public class Program
 {   
-    public static void Main()
+    public static void Main(string[] args)
     {
-        Console.Clear();
 
-        Console.WriteLine("Seja bem vindo aos múltiplos de 3 e 5");
+        string a;
+        int numero;
 
-        Console.WriteLine("Digite o primeiro número");
-        int n1 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Bem-Vindo(a), por favor insira um número" +
+            " inteiro : ");
 
-        Console.WriteLine("Digite o segundo número");
-        int n2 = int.Parse(Console.ReadLine());
+        a = Console.ReadLine();
+        
+        numero = Convert.ToInt32(a);
 
-        Console.WriteLine($" O resultado da soma dos múltiplos é ");
-
-        SomaMultiplos();
-    }
-         static void SomaMultiplos()
-            { 
-          int numero = 0;
-
-        while (numero <= 100)
+        
+        if (numero % 3 == 0 && numero % 5 == 0)
         {
-            numero++;
-            if (numero % 3 == 0  || numero % 5 == 0)
-            {
-                Console.WriteLine(numero);
-            }
-
+            Console.WriteLine("É divisivel por 3 e por 5!");
         }
-           Console.ReadKey();
+        
+        else if (numero % 5 == 0)
+        {
+            Console.WriteLine("É divisivel por 5!");
+        }
+        
+        else if (numero % 3 == 0)
+        {
+            Console.WriteLine("É divisivel por 3!");
+        }
+        
+        else
+        {
+            Console.WriteLine($"{numero} : não é um número divisivel nem por 3 nem por 5!");
+        }
+
+        Console.ReadKey();
+
 
     }
-            
-    }
-     
- 
-     
+}
 
 
-   
+
+
 
